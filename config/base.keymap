@@ -76,8 +76,6 @@ MAKE_HRM(hmr_rpar_gt, &kp, &rpar_gt, KEYS_L THUMBS)    // "    "   "   "
     hold-trigger-key-positions = <0>;
 
 &mt { MT_CORE };
-ZMK_BEHAVIOR(mt_home, hold_tap, bindings = <&masked_home>, <&kp>; MT_CORE)
-ZMK_BEHAVIOR(mt_end,  hold_tap,  bindings = <&masked_end>, <&kp>; MT_CORE)
 
 #define NAV_BSPC  &mt LC(BSPC) BSPC    // tap: bspc  | long-tap: delete word backward
 #define NAV_DEL   &mt LC(DEL)  DEL     // tap: del   | long-tap: delete word forward
